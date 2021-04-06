@@ -1,0 +1,25 @@
+{
+  "name": "amoeba-game-base",
+  "version": "1.0.0",
+  "description": "Game project infrastructure based on Cocos Create",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oc-master/amoeba-game-base.git"
+  },
+  "keywords": [
+    "Cocos"
+  ],
+  "author": "O_c",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oc-master/amoeba-game-base/issues"
+  },
+  "homepage": "https://github.com/Oc-master/amoeba-game-base#readme"
+}
