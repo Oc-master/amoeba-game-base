@@ -109,3 +109,4 @@ dist
 library/
 local/
 temp/
+build/
