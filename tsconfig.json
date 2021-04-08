@@ -9,12 +9,11 @@
     "forceConsistentCasingInFileNames": true
   },
   "exclude": [
-    ".vscode",
     "node_modules",
     "library",
     "local",
-    "settings",
     "temp",
-    "build"
+    "build",
+    "settings"
   ]
 }

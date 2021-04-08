@@ -1,17 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES6",
+    "target": "es6",
     "module": "commonjs",
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true
+    "experimentalDecorators": true
   },
   "exclude": [
-    ".vscode",
     "node_modules",
+    ".vscode",
     "library",
     "local",
     "settings",
-    "temp",
-    "build"
+    "temp"
   ]
 }

@@ -106,6 +106,7 @@ dist
 **/.DS_Store
 
 # Cocos Create directories
+.vscode/
 library/
 local/
 temp/
