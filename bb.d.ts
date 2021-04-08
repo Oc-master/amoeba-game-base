@@ -25,7 +25,6 @@ declare module bb {
     ERROR,
   }
 
-
   export var logLevel: number;
   export var logEnable: boolean;
   export var logCache: string[];
@@ -38,7 +37,6 @@ declare module bb {
   // 输出 错误
   export function logE(msg: string)
 
-
   export class BaseComponent extends cc.Component {
     actionInId: bb.UI_ACTION_IE;
     actionOutId: bb.UI_ACTION_OUT;
@@ -46,9 +44,6 @@ declare module bb {
     onEnter()
     onExit()
   }
-
-
-
 
   export class BasePool {
     constructor(prefab: cc.Prefab, num: number);
@@ -109,7 +104,6 @@ declare module bb {
     logicComponet: BaseComponent;
   }
 
-
   export module EventManager {
     export function addEventListener(type: number, callback: any, class_id: string = "", priority: number = 0);
     export function dispatchEvent(type: number, params?: any);
@@ -125,26 +119,15 @@ declare module bb {
     export function loadStaticResArr(paths: Array<string>, tag: string, callfun: Function)
     export function loadSpriteFrame(path: string, callfun: Function, retainRes: boolean = false)
     export function loadSpriteFrames(paths: Array<string>, callfun: Function, retainRes: boolean = false);
-
     export function releaseStaticRes(tag: string): void;
-
     export function releaseMusicRes(res: string): void;
     export function retatinRes(res: string);
-
     export function retainArrayRes(res: string[]);
-
     export function retainNodeRes(node: cc.Node);
-
     export function releaseNodeRes(node: cc.Node);
-
     export function releaseRes(res: string);
-
     export function releaseArrayRes(res: string[]);
-
     export function getCacheCount(): number;
-
-
-
     export function updateSpriteTexture(target: cc.Node, spriteFrame: cc.SpriteFrame): void;
     export function updateButtonTexture(target: cc.Node, normalSprite?: cc.SpriteFrame, pressedSprite?: cc.SpriteFrame, hoverSprite?: cc.SpriteFrame, disabledSprite?: cc.SpriteFrame);
     export function gc();
